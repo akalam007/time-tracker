@@ -11,7 +11,7 @@
     <title>Super Simple Example Webpage</title>
 </head>
 <body>
-  <h1>Testing Jekins </h1>
+  <h1>Testing Jekins Web Pages</h1>
   <p>
     HI Kalam Welcome to Jenkins test page...!
   </p>

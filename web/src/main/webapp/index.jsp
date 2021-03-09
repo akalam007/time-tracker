@@ -13,7 +13,7 @@
 <body>
   <h1>Super Simple Example Web Page</h1>
   <p>
-    This is a very simple example web page on a JSP.
+    HI Kalam Welcome to Jenkins test page...!
   </p>
 </body>
 </html>

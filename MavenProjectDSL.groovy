@@ -12,7 +12,5 @@ job('First-Maven_project-Via-DSL') {
     publishers {
         archiveArtifacts('**/*.war')
     }
-    deploy{
-	bat '''copy H:\\Jenkin\\jenkinworkspace\\workspace\\MavenProject\\web\\target H:\\Jenkin\\apache-tomcat-8.0.30\\webapps\\'''
-	}
+    
 }

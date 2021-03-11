@@ -9,8 +9,12 @@ job('First-Maven_project-Via-DSL') {
     steps {
         maven('clean package')
     }
-    publishers {
-        archiveArtifacts('**/*.war')
+    state('artifact') {
+        archive 'target/*.war'
     }
+   stage('deploy'){
+   echo 'Deployement started'
+      bat '''copy H:\\Jenkin\\jenkinworkspace\\workspace\\MavenProject\\web\\target\\*.war H:\\Jenkin\\apache-tomcat-8.0.30\\webapps\\'''
+   }
 
 }
